@@ -23,6 +23,12 @@ public:
 virtual void printmessage()
 {
 cout<<"\n ***Error : Divisor 0 \n";
+};class Arithmetic: public Error
+{
+public:
+virtual void printmessage()
+{
+cout<<"\n ***Error : type Arithmetic \n";
 };
 
 class DivbyNeg : public Arithmetic
