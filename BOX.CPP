@@ -93,6 +93,35 @@ class box
 			cout<<"\t Height: "<<h;
 		}
 };
+int main()
+{
+    system("color f3");
+	box cube;
+	cube.set();
+	cube.check_cube();
+	cout<<"\n Surface Area: "<<cube.surface_area();
+	cout<<"\n Volume: "<<cube.volume();
+	++cube;
+	cube++;
+	--cube;
+	cube--;
+	box cuboid;
+	cuboid.set();
+	cuboid.check_cube();
+	cout<<"\n Surface Area: "<<cuboid.surface_area();
+	cout<<"\n Volume: "<<cuboid.volume();
+	if(cuboid==cube)
+		cout<<"\n The 2 boxes are equal.";
+	else
+		cout<<"\n The 2 boxes are not equal.";
+	cuboid=cube;
+	if(cuboid==cube)
+		cout<<"\n The 2 boxes are equal.";
+	else
+		cout<<"\n The 2 boexes are not equal.";
+		system("pause");
+	return 0;
+}
 bool operator==(box b1, box b2)
 {
 	return(b1.l==b2.l && b1.b==b2.b && b1.h==b2.h);	
