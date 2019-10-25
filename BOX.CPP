@@ -79,7 +79,61 @@ class box
 			cout<<"\n\n Modified values of box: ";
 			print();
 		}
-		void check_cube()  //to check if the box is a cube
+		void check_cube()  //to check if the box is a cubevoid check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}void check_cube()  //to check if the box is a cube
+		{
+			if(l==b && l==h)
+				cout<<"\n Box created is a cube.";
+			else
+				cout<<"\n Box created is a cuboid.";
+		}
 		{
 			if(l==b && l==h)
 				cout<<"\n Box created is a cube.";
